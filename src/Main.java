@@ -33,9 +33,10 @@ public class Main {
             System.out.println(number + "ist meine Glückszahl.");
         } else {
             System.out.println(number + " ist nicht meine Glückszahl.");
+        }
 
             //ob die Zahl zweistellig ist
-            if (number < 100 & number > 9) {
+            if (number < 100 & number > 9 || number > -100 & number < -9) {
                 System.out.println(number + " ist zweistellig.");
             } else {
                 System.out.println(number + " passt nicht in das Schema.");
@@ -43,6 +44,6 @@ public class Main {
 
             //Tipp: Für die ersten beiden Punkte wirst du die Modulo Funktion brauchen.
 
-        }
+
     }
 }
